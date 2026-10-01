@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>মুফতি দেলোয়ার হুসাইন সালেহী | ডিজিটাল প্রোফাইল</title>
+<meta name="description" content="মুফতি দেলোয়ার হুসাইন সালেহী — ইমাম, খতিব, বক্তা, মুদাব্বির। ফেনী, বাংলাদেশ।">
+<meta name="theme-color" content="#0b4a34">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@500;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#0b4a34; --green-d:#06301f; --green-m:#116047;
+  --gold:#c9a24b; --gold-l:#e6c987; --cream:#fbf6e9; --paper:#fffdf6; --ink:#16241d;
+  --shadow:0 10px 30px rgba(6,48,31,.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hind Siliguri',system-ui,sans-serif;color:var(--ink);line-height:1.7;background:var(--cream);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M30 4l8 18 18 8-18 8-8 18-8-18-18-8 18-8z' fill='none' stroke='%23c9a24b' stroke-opacity='.18'/%3E%3C/svg%3E");}
+h1,h2,h3{font-family:'Noto Serif Bengali','Hind Siliguri',serif;line-height:1.4}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+section{padding:28px 0}
+
+/* HERO */
+.hero{background:linear-gradient(180deg,var(--green-d),var(--green) 80%);color:var(--cream);text-align:center;padding:36px 16px 90px;position:relative;overflow:hidden;
+  border-radius:0 0 50% 50%/0 0 36px 36px}
+.hero::before{content:"";position:absolute;inset:0;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 0l9 23 23 9-23 9-9 23-9-23L0 32l23-9z' fill='none' stroke='%23c9a24b' stroke-opacity='.28'/%3E%3C/svg%3E")}
+.hero>*{position:relative}
+.bismillah{font-family:'Amiri',serif;font-size:1.5rem;color:var(--gold-l);margin-bottom:18px}
+.arch{width:176px;margin:0 auto 18px;padding:5px;border-radius:88px 88px 14px 14px;background:linear-gradient(160deg,var(--gold-l),var(--gold));box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.arch .ph{width:100%;aspect-ratio:1/1.15;border-radius:83px 83px 10px 10px;overflow:hidden;background:var(--green-m)}
+.arch img{width:100%;height:100%;object-fit:cover;display:block}
+.hero h1{font-size:clamp(1.55rem,6vw,2.2rem);color:#fff}
+.en{font-size:1.05rem;color:var(--gold-l);letter-spacing:.04em;margin-top:2px}
+.roles-line{margin-top:10px;display:inline-block;padding:5px 18px;border:1px solid var(--gold);border-radius:99px;font-weight:500}
+
+/* CARD */
+.card{background:var(--paper);border:1px solid var(--gold);border-radius:20px;box-shadow:var(--shadow);padding:22px 20px;position:relative}
+.card::after{content:"";position:absolute;inset:5px;border:1px solid rgba(201,162,75,.35);border-radius:15px;pointer-events:none}
+.sec-title{text-align:center;font-size:1.4rem;color:var(--green);margin-bottom:16px}
+.sec-title::after{content:"";display:block;width:70px;height:2px;margin:6px auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+
+/* ACTIONS */
+.actions{margin-top:-56px;position:relative;z-index:2}
+.btns{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.btn{display:flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:10px 14px;border-radius:14px;font:600 1rem 'Hind Siliguri',sans-serif;cursor:pointer;border:1px solid var(--gold);background:var(--paper);color:var(--green);transition:transform .2s,box-shadow .2s,background .2s}
+.btn svg{width:20px;height:20px;fill:currentColor;flex:none}
+.btn:hover,.btn:active{transform:translateY(-2px);box-shadow:0 8px 18px rgba(6,48,31,.2)}
+.btn.primary{background:linear-gradient(135deg,var(--green-m),var(--green-d));color:#fff}
+.btn.wa{background:#1d8f4e;color:#fff;border-color:#1d8f4e}
+.btn.gold{background:linear-gradient(135deg,var(--gold-l),var(--gold));color:var(--green-d);border:0}
+
+/* HADITH */
+.hadith{text-align:center}
+.ar{font-family:'Amiri',serif;direction:rtl;font-size:clamp(1.45rem,5.5vw,2rem);line-height:2.1;color:var(--green)}
+.hadith blockquote{margin-top:10px;font-size:1.05rem}
+.src{margin-top:8px;color:#8a6d22;font-weight:600;font-size:.95rem}
+
+/* ROLES */
+.roles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:560px){.roles{grid-template-columns:repeat(4,1fr)}}
+.role{text-align:center;padding:16px 8px;border:1px solid var(--gold);border-radius:60px 60px 14px 14px;background:var(--paper);box-shadow:var(--shadow);transition:transform .2s}
+.role:hover{transform:translateY(-3px)}
+.role svg{width:34px;height:34px;fill:none;stroke:var(--gold);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;margin-bottom:4px}
+.role span{display:block;font-family:'Noto Serif Bengali',serif;font-weight:700;color:var(--green)}
+
+/* INFO */
+.info{list-style:none;display:grid;gap:12px}
+.info li{display:flex;gap:12px;align-items:center}
+.ico{width:42px;height:42px;border-radius:50%;background:var(--green);display:grid;place-items:center;flex:none}
+.ico svg{width:20px;height:20px;fill:var(--gold-l)}
+.info small{display:block;color:#6b7a72;line-height:1.3}
+.info b{font-size:1.1rem}
+.info .btn{margin-top:16px;width:100%}
+
+/* VIDEO */
+.video{aspect-ratio:16/9;border-radius:14px;overflow:hidden;position:relative;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--green-d),var(--green-m));border:1px solid var(--gold)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{width:68px;height:68px;border-radius:50%;background:linear-gradient(135deg,var(--gold-l),var(--gold));display:grid;place-items:center;border:0;cursor:pointer;box-shadow:0 0 0 8px rgba(230,201,135,.25);transition:transform .2s}
+.play:hover{transform:scale(1.08)}
+.play svg{width:28px;height:28px;fill:var(--green-d);margin-left:4px}
+.vnote{text-align:center;margin-top:10px;font-size:.92rem;color:#6b7a72}
+
+/* SERVICES */
+.services{list-style:none;display:grid;gap:10px}
+.services li{display:flex;gap:12px;align-items:center;padding:12px 14px;background:var(--cream);border-radius:12px;border-right:4px solid var(--gold);font-weight:500}
+.services svg{width:22px;height:22px;fill:var(--gold);flex:none}
+
+/* NOTICE */
+.notice{background:linear-gradient(135deg,var(--green-d),var(--green));color:#fff;text-align:center;padding:36px 16px;border-block:3px solid var(--gold);position:relative;overflow:hidden}
+.notice::before{content:"";position:absolute;inset:0;opacity:.5;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 0l9 23 23 9-23 9-9 23-9-23L0 32l23-9z' fill='none' stroke='%23c9a24b' stroke-opacity='.3'/%3E%3C/svg%3E")}
+.notice>*{position:relative}
+.notice h2{font-size:clamp(1.25rem,5vw,1.8rem);color:var(--gold-l);max-width:560px;margin:0 auto 6px}
+.notice p{margin-bottom:18px}
+.notice .btn{display:inline-flex;min-width:200px}
+
+/* SOCIAL */
+.social{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.soc{padding:9px 18px;border:1px dashed var(--gold);border-radius:99px;color:#8b9790;font-weight:500;cursor:not-allowed}
+.soc[href]{color:var(--green);border-style:solid;cursor:pointer}
+
+/* QR */
+.qr{text-align:center}
+#qr{width:210px;max-width:100%;margin:0 auto 10px;padding:10px;background:#fff;border:1px solid var(--gold);border-radius:14px}
+#qr svg,#qr img{width:100%;height:auto;display:block}
+#qr p{padding:60px 8px;color:#6b7a72;font-size:.9rem}
+
+/* FOOTER */
+footer{margin-top:30px;background:var(--green-d);color:var(--cream);text-align:center;padding:36px 16px 28px;position:relative;overflow:hidden;border-top:3px solid var(--gold)}
+footer::before{content:"";position:absolute;inset:0;opacity:.5;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 0l9 23 23 9-23 9-9 23-9-23L0 32l23-9z' fill='none' stroke='%23c9a24b' stroke-opacity='.25'/%3E%3C/svg%3E")}
+footer>*{position:relative}
+footer h3{color:var(--gold-l);font-size:1.25rem}
+footer a{color:var(--gold-l);font-weight:600}
+.dua{font-family:'Amiri',serif;direction:rtl;font-size:1.5rem;color:var(--gold-l);margin-top:16px}
+.dua-bn{font-size:.92rem;opacity:.85}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="bismillah" dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+  <div class="arch"><div class="ph">
+    <!-- profile.png: এখানে হুজুরের আসল ছবি দিন (profile.png নামে এই ফাইলের পাশে রাখুন) -->
+    <img src="profile.png" alt="মুফতি দেলোয়ার হুসাইন সালেহী" width="400" height="460">
+  </div></div>
+  <h1>মুফতি দেলোয়ার হুসাইন সালেহী</h1>
+  <p class="en">Mufti Dalwar Hossain Salehi</p>
+  <p class="roles-line">ইমাম • খতিব • বক্তা • মুদাব্বির</p>
+</header>
+
+<main>
+  <section class="actions"><div class="wrap">
+    <div class="card"><div class="btns">
+      <a class="btn primary" href="tel:01606239027"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11 11 0 003.5.56 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.2.2 2.4.56 3.5a1 1 0 01-.25 1z"/></svg>কল করুন</a>
+      <a class="btn wa" href="https://wa.me/8801606239027" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm5.2 14.1c-.2.6-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.200-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.300 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></svg>হোয়াটসঅ্যাপ</a>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Feni,+Bangladesh" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.500A2.500 2.500 0 119.500 9 2.500 2.500 0 0112 11.500z"/></svg>লোকেশন</a>
+      <button class="btn gold" type="button" id="saveBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.600l3.500-3.500 1.400 1.400L12 16.400 7.100 11.500l1.400-1.400L12 13.600V3zM5 19h14v2H5z"/></svg>সেভ কন্টাক্ট</button>
+    </div></div>
+  </div></section>
+
+  <section><div class="wrap"><div class="card hadith">
+    <p class="ar" lang="ar" dir="rtl">مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ</p>
+    <blockquote>“যে ব্যক্তি জ্ঞান অর্জনের উদ্দেশ্যে কোনো পথে চলে, আল্লাহ তার জন্য জান্নাতের একটি পথ সহজ করে দেন।”</blockquote>
+    <p class="src">— সহীহ মুসলিম</p>
+  </div></div></section>
+
+  <section id="about"><div class="wrap">
+    <h2 class="sec-title">পরিচিতি</h2>
+    <div class="card"><p>দীন প্রচার, ইসলামী শিক্ষা, খুতবা, বয়ান ও মানুষের কল্যাণে নিজেকে নিয়োজিত রাখার একটি প্রচেষ্টা। কুরআন ও সুন্নাহর আলোকে দ্বীনি বিষয়ে মানুষকে সচেতন ও উপকৃত করার প্রয়াস।</p></div>
+  </div></section>
+
+  <section><div class="wrap">
+    <div class="roles">
+      <div class="role"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V11l7-7 7 7v10M9 21v-5a3 3 0 016 0v5"/></svg><span>ইমাম</span></div>
+      <div class="role"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21h16M6 21V9h12v12M9 9V6h6v3M12 3v3M10 21v-4h4v4"/></svg><span>খতিব</span></div>
+      <div class="role"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3M9 21h6"/></svg><span>বক্তা</span></div>
+      <div class="role"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6c3-1.500 6-1.500 10 1 4-2.500 7-2.500 10-1v13c-3-1.500-6-1.500-10 1-4-2.500-7-2.500-10-1zM12 7v13"/></svg><span>মুদাব্বির</span></div>
+    </div>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <h2 class="sec-title">যোগাযোগ</h2>
+    <div class="card">
+      <ul class="info">
+        <li><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.600 10.800a15 15 0 006.600 6.600l2.200-2.200a1 1 0 011-.25 11 11 0 003.500.56 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.500a1 1 0 011 1c0 1.200.2 2.400.56 3.500a1 1 0 01-.25 1z"/></svg></span><div><small>ফোন</small><b><a href="tel:01606239027">01606239027</a></b></div></li>
+        <li><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.500A2.500 2.500 0 119.500 9 2.500 2.500 0 0112 11.500z"/></svg></span><div><small>ঠিকানা</small><b>ফেনী, বাংলাদেশ</b></div></li>
+      </ul>
+      <button class="btn primary" type="button" id="saveBtn2">সেভ কন্টাক্ট</button>
+    </div>
+  </div></section>
+
+  <section id="bayan"><div class="wrap">
+    <h2 class="sec-title">সর্বশেষ বয়ান</h2>
+    <div class="card">
+      <div class="video" id="video">
+        <button class="play" type="button" id="playBtn" aria-label="ভিডিও চালু করুন"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></button>
+      </div>
+      <p class="vnote" id="vnote">বয়ানের ভিডিও শীঘ্রই যুক্ত করা হবে।</p>
+    </div>
+  </div></section>
+
+  <section id="services"><div class="wrap">
+    <h2 class="sec-title">সেবাসমূহ</h2>
+    <ul class="services">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.400 7.600H22l-6.200 4.500 2.400 7.600-6.200-4.700-6.200 4.700 2.400-7.600L2 9.600h7.600z"/></svg>ইসলামী বয়ান ও ওয়াজ মাহফিল</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.400 7.600H22l-6.200 4.500 2.400 7.600-6.200-4.700-6.200 4.700 2.400-7.600L2 9.600h7.600z"/></svg>জুমা ও ঈদের খুতবা</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.400 7.600H22l-6.200 4.500 2.400 7.600-6.200-4.700-6.200 4.700 2.400-7.600L2 9.600h7.600z"/></svg>ইসলামী শিক্ষা ও দাওয়াহ</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.400 7.600H22l-6.200 4.500 2.400 7.600-6.200-4.700-6.200 4.700 2.400-7.600L2 9.600h7.600z"/></svg>কুরআন ও হাদিসভিত্তিক পরামর্শ</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.400 7.600H22l-6.200 4.500 2.400 7.600-6.200-4.700-6.200 4.700 2.400-7.600L2 9.600h7.600z"/></svg>ইসলামী দিকনির্দেশনা</li>
+    </ul>
+  </div></section>
+
+  <aside class="notice" aria-label="মাহফিল ও তদবির যোগাযোগ">
+    <h2>মাহফিল ও তদবিরের জন্য হুজুরের সাথে যোগাযোগ করুন</h2>
+    <p>ঠিকানা: ফেনী, বাংলাদেশ</p>
+    <a class="btn gold" href="tel:01606239027">যোগাযোগ করুন</a>
+  </aside>
+
+  <section id="social"><div class="wrap">
+    <h2 class="sec-title">সোশ্যাল মিডিয়া</h2>
+    <div class="card"><div class="social">
+      <!-- লিংক পেলে নিচের span-কে <a class="soc" href="আসল-লিংক" target="_blank" rel="noopener"> দিয়ে বদলান -->
+      <span class="soc" aria-disabled="true">Facebook</span>
+      <span class="soc" aria-disabled="true">YouTube</span>
+      <span class="soc" aria-disabled="true">Telegram</span>
+      <span class="soc" aria-disabled="true">Instagram</span>
+    </div></div>
+  </div></section>
+
+  <section id="qr-sec"><div class="wrap">
+    <h2 class="sec-title">কিউআর কোড</h2>
+    <div class="card qr">
+      <div id="qr"><p>কিউআর কোড তৈরি হচ্ছে…</p></div>
+      <p>স্ক্যান করে কন্টাক্ট সেভ করুন</p>
+    </div>
+  </div></section>
+</main>
+
+<footer>
+  <h3>মুফতি দেলোয়ার হুসাইন সালেহী</h3>
+  <p>ফেনী, বাংলাদেশ</p>
+  <p><a href="tel:01606239027">01606239027</a></p>
+  <p class="dua" lang="ar" dir="rtl">رَبِّ زِدْنِي عِلْمًا</p>
+  <p class="dua-bn">“হে আমার রব, আমার জ্ঞান বৃদ্ধি করে দিন।” (সূরা ত্বাহা: ১১৪)</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script>
+(function(){
+  var VIDEO_URL = ""; // এখানে YouTube লিংক বসান, যেমন: https://www.youtube.com/watch?v=XXXXXXXXXXX
+
+  var vcard = ["BEGIN:VCARD","VERSION:3.0",
+    "N:সালেহী;মুফতি দেলোয়ার হুসাইন;;;",
+    "FN:মুফতি দেলোয়ার হুসাইন সালেহী",
+    "TEL;TYPE=CELL:01606239027",
+    "ADR;TYPE=HOME:;;ফেনী;;;;বাংলাদেশ",
+    "END:VCARD"].join("\r\n");
+
+  function saveContact(){
+    var blob = new Blob([vcard],{type:"text/vcard;charset=utf-8"});
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "mufti-dalwar-hossain-salehi.vcf";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
+  }
+  document.getElementById("saveBtn").addEventListener("click",saveContact);
+  document.getElementById("saveBtn2").addEventListener("click",saveContact);
+
+  // QR from vCard
+  var qrBox = document.getElementById("qr");
+  try{
+    var qr = qrcode(0,"M");
+    qr.addData(vcard,"Byte");
+    qr.make();
+    qrBox.innerHTML = qr.createSvgTag({cellSize:4,margin:0,scalable:true});
+  }catch(e){
+    qrBox.innerHTML = "<p>কিউআর কোড লোড করা যায়নি। ইন্টারনেট সংযোগ দিয়ে আবার চেষ্টা করুন।</p>";
+  }
+
+  // YouTube
+  function ytId(u){
+    var m = u.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);
+    return m ? m[1] : null;
+  }
+  document.getElementById("playBtn").addEventListener("click",function(){
+    var id = VIDEO_URL && ytId(VIDEO_URL);
+    if(!id){return;}
+    var f = document.createElement("iframe");
+    f.src = "https://www.youtube.com/embed/"+id+"?autoplay=1";
+    f.title = "সর্বশেষ বয়ান";
+    f.allow = "autoplay; encrypted-media; picture-in-picture";
+    f.allowFullscreen = true;
+    document.getElementById("video").appendChild(f);
+    this.remove();
+  });
+  if(ytId(VIDEO_URL||"")) document.getElementById("vnote").textContent = "";
+})();
+</script>
+</body>
+</html>
